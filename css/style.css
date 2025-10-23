@@ -112,6 +112,9 @@ article{
   padding: 10px;
   gap: 20px;
 }
+#index_responsive{
+  display: none;
+}
 
 
 #mur_room,#mur_window{
