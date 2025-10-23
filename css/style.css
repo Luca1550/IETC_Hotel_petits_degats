@@ -18,6 +18,7 @@
 --btn-bg: #408360;
 --btn-text: #FFFFFF;
 --btn-hover-bg: #2f6147;
+--btn-current-bg: #1f4431;
 
   /* --- Autres tons utiles --- */
   --success-color: #88B788;     /* vert doux */
@@ -83,6 +84,9 @@ header a {
 }
 header a:hover {
   background-color: var(--btn-hover-bg);
+}
+.current{
+  background-color: var(--btn-current-bg);
 }
 
 
