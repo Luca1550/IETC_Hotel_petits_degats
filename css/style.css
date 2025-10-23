@@ -5,6 +5,8 @@
   --accent-color: #7B9ACC;      /* bleu-gris doux, accent élégant */
   --accent-hover: #5C7BB3;      /* accent un peu plus soutenu pour hover */
   --header-background: #408360;
+  --form-background: #5dad84;
+  --form-text-background: #6fcd9d;
   --header-text: #ededed;
 
   /* --- Couleurs secondaires --- */
@@ -171,18 +173,32 @@ article{
   display: flex;
   flex-direction: column;
   gap: 3px;
+  padding: 5px;
+  box-shadow: 2px 4px 20px black;
+  border-radius: 5px;
+  background-color: var(--form-background);
 }
-.contact_form p{
-  padding: 10px 0px;
-  width: 400px;
-}
+
 .contact_form input{
-  width: 200px;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  border: 1px solid black;
 }
 .contact_form textarea{
-  width: 300px;
-  height: 100px;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  height: 60px;
+  border: 1px solid black;
 }
+#btn_send{
+  height: 40px;
+  background-color: var(--btn-bg);
+  color: var(--header-text);
+}
+#btn_send:hover{
+  background-color: var(--btn-hover-bg);
+}
+
 
 
 footer{
