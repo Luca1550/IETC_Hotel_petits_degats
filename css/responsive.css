@@ -7,8 +7,8 @@
 
 @media (max-width: 768px){
     img{
-        max-width: 50%;
-        max-height: 50%;
+        width: auto;
+        height: 200%;
     }
     header{
         display: flex;
@@ -22,5 +22,6 @@
     .mur_main article,.air_main article,.goutte_main article,.contact_main{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
