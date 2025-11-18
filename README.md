@@ -1,5 +1,9 @@
 # Hôtel des Petits Dégâts
 
+## Page Github
+
+https://luca1550.github.io/IETC_Hotel_petits_degats/index.html
+
 **Hôtel des Petits Dégâts** est un site web satirique présentant un établissement fictif et ses chambres au charme… particulier.  
 Le projet met en avant la rédaction, la mise en page et l’ambiance visuelle, tout en cachant un **easter egg** à découvrir pour les visiteurs attentifs.
 
